@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include 'partials/head.html' %}
+  </head>
+  <body class="has-navbar-fixed-top">
+    <div id="wrapper">
+      {% include 'partials/navbar.html' %}
+      <section class="section">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-7 is-offset-2">
+              <div class="content">
+                {% block content %} {{ page.content }} {% endblock content %}
+              </div>
+            </div>
+            {% if page and page.meta.sidebar %}
+            <div class="column is-3 is-hidden-touch">
+              {% include 'partials/sidebar.html' %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </section>
+    </div>
+    {% include 'partials/footer.html' %}
+  </body>
+  {% include 'partials/js.html' %}
+</html>

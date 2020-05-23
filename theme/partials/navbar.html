@@ -1,0 +1,63 @@
+<nav class="navbar is-fixed-top is-white is-transparent has-shadow">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <!-- <b>{{ config.site_name }}</b> -->
+      <!-- <img src="img/logo.png" /> -->
+    </a>
+    <div class="navbar-burger burger" data-target="navbar">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbar" class="navbar-menu">
+    <div class="navbar-start">
+      {% for nav_item in nav %}
+        {% if nav_item.children %}
+          <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link{% if nav_item.active %} is-current{% else %} not-current{% endif %}" href="{{ nav_item.url | url}}">
+                {{ nav_item.title }}
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                {% for nav_item in nav_item.children %}
+                  <a class="navbar-item{% if nav_item.active %} is-current{% else %} not-current{% endif %}" href="{{ nav_item.url | url}}">
+                    {{ nav_item.title }}
+                  </a>
+                {% endfor %}
+              </div>
+          </div>
+        {% else %}
+          <a class="navbar-item{% if nav_item.active %} is-current{% else %} not-current{% endif %}" href="{{ nav_item.url | url}}">
+            {{ nav_item.title }}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-dark" href="{{ config.extra.github_link }}" target="_blank">
+              <span class="icon">
+                <img src="{{ config.site_url }}img/github_white.svg" />
+              </span>
+              <span style="padding-left: 6px">Code</span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-dark" href="{{ config.extra.arxiv_link }}" target="_blank">
+              <span class="icon" style="padding: 1px;">
+                <img src="{{ config.site_url }}img/adobeacrobatreader_white.svg" />
+              </span>
+              <span style="padding-left: 6px">
+                Paper
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

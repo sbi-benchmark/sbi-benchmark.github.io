@@ -1,0 +1,29 @@
+site_name: SBI Benchmark
+site_url: https://sbi-benchmark.github.io/
+
+extra:
+  arxiv_id: '2101.04653'
+  arxiv_link: 'https://arxiv.org/abs/2101.04653'
+  github_link: 'https://github.com/sbi-benchmark/sbibm'
+
+nav:
+    - Overview: 'index.md'
+    - Interactive Results:
+        - Metrics: 'results/metrics.md'
+        - Posteriors: 'results/posteriors.md'
+        - Correlations: 'results/correlations.md'
+    - Code & Reproducibility: 'code.md'
+    - Contributions: 'contribute.md'
+
+theme:
+    name: null
+    custom_dir: 'theme/'
+    static_templates:
+      - 404.html
+
+plugins:
+  - search
+  - macros
+
+markdown_extensions:
+  - meta

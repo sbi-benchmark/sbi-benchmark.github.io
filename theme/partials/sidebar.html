@@ -1,0 +1,13 @@
+<aside class="menu has-navbar-fixed-top">
+  {% for toc_item in page.toc %}
+    {% if toc_item.children %}
+      <ul class="menu-list">
+        {% if loop.index == 1 %}
+          {% include 'partials/sidebar-item-first.html' %}
+        {% else %}
+          {% include 'partials/sidebar-item.html' %}
+        {% endif %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+</aside>

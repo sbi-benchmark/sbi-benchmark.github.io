@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include 'partials/head.html' %}
+  </head>
+  <body class="has-navbar-fixed-top">
+    <div id="wrapper">
+      {% include 'partials/navbar.html' %}
+      {% block content %} {{ page.content }} {% endblock content %}
+    </div>
+  </body>
+  {% include 'partials/js.html' %}
+</html>

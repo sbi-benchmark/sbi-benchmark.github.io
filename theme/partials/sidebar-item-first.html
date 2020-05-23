@@ -1,0 +1,9 @@
+<li>
+  {% if toc_item.children %}
+    <ul>
+      {% for toc_item in toc_item.children %}
+        {% include 'partials/sidebar-item.html' %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+</li>
