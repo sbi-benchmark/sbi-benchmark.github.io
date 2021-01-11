@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#wrapper {
+  flex: 1;
+}
+
+.not-current {
+  font-weight: 400;
+}
+
+.is-current {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.menu {
+  position: sticky;
+  display: inline-block;
+  vertical-align: top;
+  max-height: 100vh;
+  overflow-y: auto;
+  top: 0;
+  bottom: 0;
+  padding-top: 3.25rem;
+}
+
+.content a[target="_blank"]:after {
+    content: url('../../img/external_link.svg');
+}
+
+pre code {
+  background-color: transparent !important;
+}

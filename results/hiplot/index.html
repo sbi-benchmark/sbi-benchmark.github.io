@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HiPlot - SBI Benchmark</title>
+<link rel="stylesheet" href="https://localhost:8000/assets/css/bulma.min.css">
+<link rel="stylesheet" href="https://localhost:8000/assets/css/custom.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/github.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
+  </head>
+  <body class="has-navbar-fixed-top">
+    <div id="wrapper">
+      <nav class="navbar is-fixed-top is-white is-transparent has-shadow">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <!-- <b>SBI Benchmark</b> -->
+      <!-- <img src="img/logo.png" /> -->
+    </a>
+    <div class="navbar-burger burger" data-target="navbar">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbar" class="navbar-menu">
+    <div class="navbar-start">
+      
+        
+          <a class="navbar-item not-current" href="../..">
+            Overview
+          </a>
+        
+      
+        
+          <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link is-current" href="../..">
+                Interactive Results
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                
+                  <a class="navbar-item not-current" href="../metrics/">
+                    Metrics
+                  </a>
+                
+                  <a class="navbar-item not-current" href="../posteriors/">
+                    Posteriors
+                  </a>
+                
+                  <a class="navbar-item not-current" href="../correlations/">
+                    Correlations
+                  </a>
+                
+                  <a class="navbar-item is-current" href="./">
+                    HiPlot
+                  </a>
+                
+                  <a class="navbar-item not-current" href="../download/">
+                    Dataframes
+                  </a>
+                
+              </div>
+          </div>
+        
+      
+        
+          <a class="navbar-item not-current" href="../../code/">
+            Code & Reproducibility
+          </a>
+        
+      
+        
+          <a class="navbar-item not-current" href="../../contribute/">
+            Contributions
+          </a>
+        
+      
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-dark" href="https://github.com/sbi-benchmark/sbibm" target="_blank">
+              <span class="icon">
+                <img src="https://localhost:8000/img/github_white.svg" />
+              </span>
+              <span style="padding-left: 6px">Code</span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-dark" href="https://arxiv.org/abs/2021.01xxxxx" target="_blank">
+              <span class="icon" style="padding: 1px;">
+                <img src="https://localhost:8000/img/adobeacrobatreader_white.svg" />
+              </span>
+              <span style="padding-left: 6px">
+                Paper
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+      <iframe src="https://share.streamlit.io/sbi-benchmark/streamlit/main/app.py?conf=%7B%22page%22%3A+%22HiPlot%22%2C+%22embed%22%3A+1%7D" frameborder="0" style="" height="2000" width="100%"></iframe>
+    </div>
+  </body>
+  <script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', () => {
+
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+    }
+
+  });
+</script>
+<script>hljs.initHighlightingOnLoad();</script>
+</html>

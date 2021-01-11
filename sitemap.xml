@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>https://localhost:8000/</loc>
+     <lastmod>2021-01-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://localhost:8000/results/metrics/</loc>
+     <lastmod>2021-01-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://localhost:8000/results/posteriors/</loc>
+     <lastmod>2021-01-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://localhost:8000/results/correlations/</loc>
+     <lastmod>2021-01-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://localhost:8000/results/hiplot/</loc>
+     <lastmod>2021-01-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://localhost:8000/results/download/</loc>
+     <lastmod>2021-01-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://localhost:8000/code/</loc>
+     <lastmod>2021-01-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://localhost:8000/contribute/</loc>
+     <lastmod>2021-01-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>
