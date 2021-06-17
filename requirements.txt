@@ -1,2 +1,2 @@
 mkdocs
-mkdocs-macros-plugin
+git+https://github.com/fralau/mkdocs_macros_plugin@v0.5.12#egg=mkdocs-macros-plugin
