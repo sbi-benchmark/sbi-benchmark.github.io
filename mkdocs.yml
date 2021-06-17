@@ -5,6 +5,8 @@ extra:
   arxiv_id: '2101.04653'
   arxiv_link: 'https://arxiv.org/abs/2101.04653'
   github_link: 'https://github.com/sbi-benchmark/sbibm'
+  pmlr_link: 'http://proceedings.mlr.press/v130/lueckmann21a.html'
+  slideslive_id: '38952956'
 
 nav:
     - Overview: 'index.md'
