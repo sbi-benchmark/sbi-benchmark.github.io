@@ -2,14 +2,14 @@
 sidebar: true
 ---
 
-# Benchmarking simulation-based inference
+# Benchmarking Simulation-Based Inference
 
-Many domains of science make use of numerical simulators for which (1) it is easy to simulate but (2) the likelihood is unavailable, making it hard to perform statistical identification of model parameters consistent with observed data. <a href="https://www.pnas.org/content/early/2020/05/28/1912789117" target="_blank">Simulation-based inference (SBI)</a> deals with this 'likelihood-free' setting. Although recent advances have led to a large number of SBI algorithms, a public benchmark for such algorithms has been lacking: We set out to fill this gap, carefully select tasks and metrics, and evaluate several canonical algorithms. Through this website you can explore all results of our <a href="{{ arxiv_link }}" target="_blank">manuscript</a>, including comparisons on all metrics and plotting of posteriors for each of more than 10 000 runs. 
+Many domains of science make use of numerical simulators for which (1) it is easy to simulate but (2) the likelihood is unavailable, making it hard to perform statistical identification of model parameters consistent with observed data. <a href="https://www.pnas.org/content/early/2020/05/28/1912789117" target="_blank">Simulation-based inference (SBI)</a> deals with this 'likelihood-free' setting. Although recent advances have led to a large number of SBI algorithms, a public benchmark for such algorithms has been lacking: We set out to fill this gap, carefully select tasks and metrics, and evaluate several canonical algorithms. Through this website you can explore all results of our <a href="{{ pmlr_link }}" target="_blank">manuscript</a>, including comparisons on all metrics and plotting of posteriors for each of more than 10 000 runs.
 
 Keep reading for a brief summary of the manuscript, or jump right into interactive results (through the menu on top). We provide a framework to benchmark your own algorithms, code and results for reproducibility, and invite contributions.
 
 
-## Our motivation and methods
+## Our Motivation and Methods
 
 Open benchmarks can be an important component of transparent and reproducible computational research. However, a benchmark framework for SBI has been lacking, possibly due to the challenging endeavour of designing benchmarking tasks and defining suitable performance metrics.
 
@@ -26,7 +26,7 @@ We selected a set of initial algorithms representing four distinct approaches to
 **Tasks.** We focused on eight purely statistical problems and two problems relevant in applied domains, with diverse dimensionalities of parameters and data.
 
 
-## Key findings
+## Key Findings
 
 The full potential of the benchmark will be realized when it is populated with additional community-contributed algorithms and tasks. However, our initial version already provides useful insights:
 
@@ -37,11 +37,43 @@ The full potential of the benchmark will be realized when it is populated with a
 - for small and moderate simulation budgets, neural-network based approaches outperform classical ABC algorithms, confirming recent progress in the field;
 - but that there is no algorithm to rule them all.
 
-The performance ranking of algorithms is task-dependent, pointing to a need for better guidance or automated procedures for choosing which algorithm to use when. In the manuscript, we included some considerations and recommendations for practitioners, based on our current results and understanding, and dedicated a page to discussing various limitations. 
+The performance ranking of algorithms is task-dependent, pointing to a need for better guidance or automated procedures for choosing which algorithm to use when. In the manuscript, we included some considerations and recommendations for practitioners, based on our current results and understanding, and dedicated a page to discussing various limitations.
 
 
-**Find out more in our manuscript:**
+**Find out more in our manuscript, [available through PMLR](pmlr_link) or:**
 
 > [arXiv.org/abs/{{ arxiv_id }}]({{ arxiv_link }})
 
 _We believe that the full potential of the benchmark will be revealed as more researchers participate and contribute. In order to facilitate this process, we provide a benchmarking framework which is designed to be highly extensible and easily used. See [Code & Reproducibility](code.md) for explanations and examples._
+
+
+## 3-Minute Summary
+
+<div id="presentation-embed-{{ slideslive_id }}"></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+    embed = new SlidesLiveEmbed('presentation-embed-{{ slideslive_id }}', {
+        presentationId: '{{ slideslive_id }}',
+        autoPlay: false,
+        verticalEnabled: true,
+        zoomRatio: 0.3
+    });
+</script>
+
+
+## Citation
+
+```bibtex
+@InProceedings{lueckmann2021benchmarking,
+ title     = {Benchmarking Simulation-Based Inference},
+ author    = {Lueckmann, Jan-Matthis and Boelts, Jan and Greenberg, David and Goncalves, Pedro and Macke, Jakob},
+ booktitle = {Proceedings of The 24th International Conference on Artificial Intelligence and Statistics},
+ pages     = {343--351},
+ year      = {2021},
+ editor    = {Banerjee, Arindam and Fukumizu, Kenji},
+ volume    = {130},
+ series    = {Proceedings of Machine Learning Research},
+ month     = {13--15 Apr},
+ publisher = {PMLR}
+}
+```
