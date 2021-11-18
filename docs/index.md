@@ -77,3 +77,7 @@ _We believe that the full potential of the benchmark will be revealed as more re
  publisher = {PMLR}
 }
 ```
+
+## Support
+
+This work was supported by the German Research Foundation (DFG; SFB 1233 PN 276693517, SFB 1089, SPP 2041, Germany’s Excellence Strategy – EXC number 2064/1 PN 390727645) and the German Federal Ministry of Education and Research (BMBF; project ’ADIMEM’, FKZ 01IS18052 A-D). [ADIMEM](https://fit.uni-tuebingen.de/Project/Details?id=9199) is a BMBF grant awarded to groups at the Technical University of Munich, University of Tübingen and Research Center caesar of the Max Planck Gesellschaft.
