@@ -40,7 +40,7 @@ The full potential of the benchmark will be realized when it is populated with a
 The performance ranking of algorithms is task-dependent, pointing to a need for better guidance or automated procedures for choosing which algorithm to use when. In the manuscript, we included some considerations and recommendations for practitioners, based on our current results and understanding, and dedicated a page to discussing various limitations.
 
 
-**Find out more in our manuscript, [available through PMLR](pmlr_link) or:**
+**Find out more in our manuscript, [available through PMLR]({{ pmlr_link }}) or:**
 
 > [arXiv.org/abs/{{ arxiv_id }}]({{ arxiv_link }})
 
