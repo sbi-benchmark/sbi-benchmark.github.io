@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sbi-benchmark.github.io/</loc>
-         <lastmod>2022-03-09</lastmod>
+         <lastmod>2022-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sbi-benchmark.github.io/code/</loc>
-         <lastmod>2022-03-09</lastmod>
+         <lastmod>2022-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sbi-benchmark.github.io/contribute/</loc>
-         <lastmod>2022-03-09</lastmod>
+         <lastmod>2022-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sbi-benchmark.github.io/results/correlations/</loc>
-         <lastmod>2022-03-09</lastmod>
+         <lastmod>2022-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sbi-benchmark.github.io/results/download/</loc>
-         <lastmod>2022-03-09</lastmod>
+         <lastmod>2022-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sbi-benchmark.github.io/results/hiplot/</loc>
-         <lastmod>2022-03-09</lastmod>
+         <lastmod>2022-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sbi-benchmark.github.io/results/metrics/</loc>
-         <lastmod>2022-03-09</lastmod>
+         <lastmod>2022-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sbi-benchmark.github.io/results/offline/</loc>
-         <lastmod>2022-03-09</lastmod>
+         <lastmod>2022-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sbi-benchmark.github.io/results/posteriors/</loc>
-         <lastmod>2022-03-09</lastmod>
+         <lastmod>2022-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
